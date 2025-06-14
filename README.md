@@ -5,14 +5,14 @@ This repository contains the code and data used for the meta-analysis conducted 
 
 ## Repository structure
 ```
-+.
-+├── data/
-+│   ├── dat_ma.csv   # Data for the meta-analysis
-+│   └── dat_rob.csv  # Data for the risk of bias plots
-+├── meta_analysis.R      # Runs frequentist and Bayesian meta-analyses
-+├── forest_plot.R        # Forest plot of the full analysis
-+├── forest_plot_sens.R   # Forest plot excluding the study with unclear bias
-+└── risk_of_bias.R       # Bar chart and traffic light plot of risk of bias
+.
+├── data/
+│   ├── dat_ma.csv   # Data for the meta-analysis
+│   └── dat_rob.csv  # Data for the risk of bias plots
+├── meta_analysis.R      # Runs frequentist and Bayesian meta-analyses
+├── forest_plot.R        # Forest plot of the full analysis
+├── forest_plot_sens.R   # Forest plot excluding the study with unclear bias
+└── risk_of_bias.R       # Bar chart and traffic light plot of risk of bias
 ```
 
 ## Usage
