@@ -28,5 +28,5 @@ This repository contains the code and data used for the meta-analysis conducted 
    
    Run `risk_of_bias.R` to create a bar chart and traffic light plot summarising the risk-of-bias assessments stored in `dat_rob.csv`.
 
-The scripts rely on the packages `metamisc`, `coda`, `ggplot2`, and `dplyr`. Install them in your R environment if they are not already available.
+The scripts rely on the packages `metamisc`, `coda`, `ggplot2`, and `dplyr`. Install them in your R environment if they are not already available. In order to perform the Bayesian meta-analysis, the `metamisc` package depends on the packages `runjags` and `rjags`. JAGS must be installed on the local machine to run the `rjags` package. 
 
