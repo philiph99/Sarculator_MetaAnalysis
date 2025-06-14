@@ -1,6 +1,6 @@
-# Frequentist and Bayesian Meta-Analysis of Sarcoma Prognostic Models
+# Frequentist and Bayesian Meta-Analysis of a Sarcoma Prognostic Model
 
-This repository contains the code and data used for the meta-analysis conducted as part of my Master's thesis in the MSc Applied Statistics programme. The objective is to evaluate the performance of a prognostic model for sarcomas using both frequentist and Bayesian methods.
+This repository contains the code and data used for the meta-analysis conducted as part of my Master's thesis in the MSc Applied Statistics programme. The objective was to evaluate the performance of a prognostic model for sarcomas using both frequentist and Bayesian methods. The code in this respository can be used to run the frequentist and Bayesian meta-analysis, construct forest plots, conduct a sensitivity analysis by excluding a study with unclear risk of bias and plot a bar chart and traffic light chart of the risk of bias. 
 
 
 ## Repository structure
