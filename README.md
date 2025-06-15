@@ -1,6 +1,6 @@
 # Frequentist and Bayesian Meta-Analysis of a Sarcoma Prognostic Model
 
-This repository contains the code and data used for the meta-analysis conducted as part of my Master's thesis in the MSc Applied Statistics programme. The objective was to evaluate the performance of a prognostic model for sarcomas using both frequentist and Bayesian methods. The code in this respository can be used to run the frequentist and Bayesian meta-analysis, construct forest plots, conduct a sensitivity analysis by excluding a study with unclear risk of bias and plot a bar chart and traffic light chart of the risk of bias. 
+This repository contains the code and data used for the meta-analysis conducted as part of my Master's thesis in the MSc Applied Statistics programme. The objective was to evaluate the performance of a prognostic model for sarcomas using both frequentist and Bayesian methods. The code in this respository can be used to run the frequentist and Bayesian meta-analysis, construct forest plots, conduct a sensitivity analysis by excluding a study with high risk of bias and plot a bar chart and traffic light chart of the risk of bias. 
 
 
 ## Repository structure
@@ -11,7 +11,7 @@ This repository contains the code and data used for the meta-analysis conducted 
 │   └── dat_rob.csv  # Data for the risk of bias plots
 ├── meta_analysis.R      # Runs frequentist and Bayesian meta-analyses
 ├── forest_plot.R        # Forest plot of the full analysis
-├── forest_plot_sens.R   # Forest plot excluding the study with unclear bias
+├── forest_plot_sens.R   # Forest plot excluding the study with high bias
 └── risk_of_bias.R       # Bar chart and traffic light plot of risk of bias
 ```
 
@@ -22,7 +22,7 @@ This repository contains the code and data used for the meta-analysis conducted 
 
 2. **Display forest plots**
 
-   After running the analysis, use `forest_plot.R` to visualise the full results and `forest_plot_sens.R` to view the sensitivity analysis that excludes the study with uncertain risk of bias.
+   After running the analysis, use `forest_plot.R` to visualise the full results and `forest_plot_sens.R` to view the sensitivity analysis that excludes the study with high risk of bias.
 
 3. **Assess risk of bias**
    
