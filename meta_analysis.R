@@ -106,13 +106,13 @@ ggplot(posterior_df, aes(x = var1)) +
   coord_cartesian(xlim = c(0.5, 1))  
 
 # -------------------------------------------------------------------
-# Sensitivity Analysis: Exclude study with uncertain risk of bias
+# Sensitivity Analysis: Exclude study with high risk of bias
 # -------------------------------------------------------------------
 
-# Remove Chadha study from dataset
-dat_sens <- dat[dat$study != "Chadha, 2024", ]  
+# Remove Squires study from dataset
+dat_sens <- dat[dat$study != "Squires, 2022", ]  
 
-# Frequentist analysis (without Chadha)
+# Frequentist analysis (without Squires)
 res_sens <- valmeta(
   cstat = c_stat, 
   cstat.cilb = c_stat_LL, 
@@ -125,7 +125,7 @@ res_sens <- valmeta(
 # Display meta-analysis results
 print(res_sens)  
 
-# Bayesian analysis (without Chadha)
+# Bayesian analysis (without Squires)
 res_sens_bayes <- valmeta(
   cstat = c_stat,
   cstat.cilb = c_stat_LL,
